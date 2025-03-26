@@ -1,0 +1,162 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional WhatsApp Bulk Messaging Solution for Businesses">
+    <meta name="keywords" content="WhatsApp, Bulk Messaging, Marketing, Automation">
+    <title>WhatsApp Business Messenger Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="WhatsApp Business Messenger Pro">
+    <meta property="og:description" content="Enterprise-grade WhatsApp messaging solution">
+    <meta property="og:image" content="{{ url_for('static', filename='og-image.jpg') }}">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand-container">
+                <img src="{{ url_for('static', filename='logo.svg') }}" alt="Business Messenger Pro" class="brand-logo">
+                <span class="brand-name">WhatsApp Business Pro</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="/features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/contact" class="nav-link cta-button">Contact Sales</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Enterprise WhatsApp Messaging Solution</h1>
+                <p class="hero-subtitle">Secure, Scalable, and Compliant Bulk Messaging Platform</p>
+                
+                <div class="hero-cta">
+                    <button class="primary-cta" id="startDemo">
+                        <i class="fas fa-play-circle"></i> Watch Demo
+                    </button>
+                    <button class="secondary-cta" id="startWhatsApp">
+                        <i class="fab fa-whatsapp"></i> Launch Messenger
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Everything you need for professional communication</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>GDPR Compliant</h3>
+                    <p>Enterprise-grade security and data protection</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Real-time Analytics</h3>
+                    <p>Detailed delivery reports and engagement metrics</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-users-cog"></i>
+                    <h3>Team Collaboration</h3>
+                    <p>Multi-user access with role-based permissions</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="upload-section">
+            <div class="section-header">
+                <h2>Start Messaging</h2>
+                <p>Upload your contact list and schedule messages</p>
+            </div>
+
+            <div class="upload-container">
+                <div class="upload-card">
+                    <div class="upload-header">
+                        <i class="fas fa-file-excel"></i>
+                        <h3>Upload Contact List</h3>
+                    </div>
+                    
+                    <form id="uploadForm" class="upload-form">
+                        <div class="file-drop-zone" id="dropZone">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Drag & Drop Excel File or Click to Browse</p>
+                            <input type="file" id="fileInput" accept=".xlsx,.xls" required>
+                        </div>
+                        
+                        <div class="form-footer">
+                            <button type="submit" class="primary-cta">
+                                <i class="fas fa-paper-plane"></i> Schedule Messages
+                            </button>
+                            <div class="file-requirements">
+                                <p>Supported formats: .xlsx, .xls</p>
+                                <p>Max file size: 10MB</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/careers">Careers</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/compliance">Compliance</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2024 WhatsApp Business Pro. All rights reserved.</p>
+            <p>Certified WhatsApp Business Solution Provider</p>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+</body>
+</html>
