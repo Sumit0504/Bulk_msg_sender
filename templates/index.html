@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +6,11 @@
     <meta name="description" content="Professional WhatsApp Bulk Messaging Solution for Businesses">
     <meta name="keywords" content="WhatsApp, Bulk Messaging, Marketing, Automation">
     <title>WhatsApp Business Messenger Pro</title>
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- XLSX library is not needed for backend processing -->
     <script defer src="{{ url_for('static', filename='script.js') }}"></script>
     <!-- Open Graph tags -->
     <meta property="og:title" content="WhatsApp Business Messenger Pro">
@@ -19,7 +21,7 @@
     <header class="main-header">
         <nav class="navbar">
             <div class="brand-container">
-                <img src="{{ url_for('static', filename='logo.svg') }}" alt="Business Messenger Pro" class="brand-logo">
+                <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Business Messenger Pro" class="brand-logo">
                 <span class="brand-name">WhatsApp Business Pro</span>
             </div>
             
@@ -51,34 +53,7 @@
                     </button>
                     <button class="secondary-cta" id="startWhatsApp">
                         <i class="fab fa-whatsapp"></i> Launch Messenger
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <section class="features-section">
-            <div class="section-header">
-                <h2>Key Features</h2>
-                <p>Everything you need for professional communication</p>
-            </div>
-            
-            <div class="features-grid">
-                <div class="feature-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>GDPR Compliant</h3>
-                    <p>Enterprise-grade security and data protection</p>
-                </div>
-                
-                <div class="feature-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Real-time Analytics</h3>
-                    <p>Detailed delivery reports and engagement metrics</p>
-                </div>
-                
-                <div class="feature-card">
-                    <i class="fas fa-users-cog"></i>
-                    <h3>Team Collaboration</h3>
-                    <p>Multi-user access with role-based permissions</p>
+                    </button>                    
                 </div>
             </div>
         </section>
@@ -86,7 +61,7 @@
         <section class="upload-section">
             <div class="section-header">
                 <h2>Start Messaging</h2>
-                <p>Upload your contact list and schedule messages</p>
+                <p>Upload your contact list to send messages immediately</p>
             </div>
 
             <div class="upload-container">
@@ -96,16 +71,17 @@
                         <h3>Upload Contact List</h3>
                     </div>
                     
-                    <form id="uploadForm" class="upload-form">
+                    <!-- The form posts the file to /send_messages -->
+                    <form id="uploadForm" class="upload-form" enctype="multipart/form-data">
                         <div class="file-drop-zone" id="dropZone">
                             <i class="fas fa-cloud-upload-alt"></i>
                             <p>Drag & Drop Excel File or Click to Browse</p>
-                            <input type="file" id="fileInput" accept=".xlsx,.xls" required>
+                            <input type="file" id="fileInput" name="file" accept=".xlsx,.xls" required>
                         </div>
                         
                         <div class="form-footer">
-                            <button type="submit" class="primary-cta">
-                                <i class="fas fa-paper-plane"></i> Schedule Messages
+                            <button id="sendMessage" class="primary-cta" type="submit">
+                                <i class="fab fa-whatsapp"></i> Send Message
                             </button>
                             <div class="file-requirements">
                                 <p>Supported formats: .xlsx, .xls</p>
@@ -143,7 +119,7 @@
                 <div class="social-links">
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/Sumit0504"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
