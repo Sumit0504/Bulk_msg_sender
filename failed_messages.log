@@ -406,3 +406,354 @@ Stacktrace:
 2025-03-27 23:56:41 - Failed to send message to 127.0.0.1 - - [27/Mar/2025 23:56:41] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03äÂö°ì3\x9e6r¢ôU)H\x8djû\x14\x17Úô|v{´\x93Ë½#\x88\x09\x07 \x11ü9üÊ\x14eL/&3\x11\x03O\x807»^\x12É\x80¡o\x94òFm\\êb§%\x00,zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
 2025-03-27 23:56:41 - Failed to send message to 127.0.0.1 - - [27/Mar/2025 23:56:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01HÛS\x04\x0fÐEh»|½l\x003¢£f\x05\x89©+]D[ºðwú(Ã')
 2025-03-27 23:56:41 - Failed to send message to 127.0.0.1 - - [27/Mar/2025 23:56:41] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01HÛS\x04\x0fÐEh»|½l\x003¢£f\x05\x89©+]D[ºðwú(Ã \x96\x00\x00\x14À[0m" 400 -
+2025-04-15 22:04:59 - Failed to send message to [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 22:04:59 - Failed to send message to [33mPress CTRL+C to quit[0m
+2025-04-15 22:04:59 - Failed to send message to  * Restarting with stat
+2025-04-15 22:05:00 - Failed to send message to  * Debugger is active!
+2025-04-15 22:05:00 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-15 22:05:02 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:02] "GET / HTTP/1.1" 200 -
+2025-04-15 22:05:02 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:02] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-15 22:05:02 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:02] "GET /static/logo.jpg HTTP/1.1" 200 -
+2025-04-15 22:05:02 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:02] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-15 22:05:02 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-15 22:05:34 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:34] "POST /send_messages HTTP/1.1" 200 -
+2025-04-15 22:05:55 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:05:55] "POST /send_messages HTTP/1.1" 200 -
+2025-04-15 22:07:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:28] "GET / HTTP/1.1" 200 -
+2025-04-15 22:07:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-15 22:07:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:28] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-15 22:07:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-15 22:07:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-15 22:07:38 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:38] "GET / HTTP/1.1" 200 -
+2025-04-15 22:07:38 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:38] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-15 22:07:38 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:38] "GET /static/logo.jpg HTTP/1.1" 200 -
+2025-04-15 22:07:38 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:38] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-15 22:07:52 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:07:52] "POST /send_messages HTTP/1.1" 200 -
+2025-04-15 22:09:52 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:09:52] "GET / HTTP/1.1" 200 -
+2025-04-15 22:09:52 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:09:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-15 22:09:52 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:09:52] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-15 22:09:52 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:09:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-15 22:10:17 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:10:17] "POST /send_messages HTTP/1.1" 200 -
+2025-04-15 22:11:20 - Failed to send message to [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 22:11:20 - Failed to send message to [33mPress CTRL+C to quit[0m
+2025-04-15 22:11:20 - Failed to send message to  * Restarting with stat
+2025-04-15 22:11:22 - Failed to send message to  * Debugger is active!
+2025-04-15 22:11:22 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-15 22:11:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:11:28] "GET / HTTP/1.1" 200 -
+2025-04-15 22:11:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:11:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-15 22:11:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:11:28] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-15 22:11:28 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:11:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-15 22:11:52 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:11:52] "POST /send_messages HTTP/1.1" 200 -
+2025-04-15 22:12:18 - Failed to send message to 127.0.0.1 - - [15/Apr/2025 22:12:18] "[33mGET /about HTTP/1.1[0m" 404 -
+2025-04-20 09:35:23 - Failed to send message to [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-20 09:35:23 - Failed to send message to [33mPress CTRL+C to quit[0m
+2025-04-20 09:35:23 - Failed to send message to  * Restarting with stat
+2025-04-20 09:35:24 - Failed to send message to  * Debugger is active!
+2025-04-20 09:35:24 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 09:35:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:35:37] "GET / HTTP/1.1" 200 -
+2025-04-20 09:35:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:35:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:35:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:35:37] "GET /static/logo.jpg HTTP/1.1" 200 -
+2025-04-20 09:35:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:35:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 09:35:40 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:35:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-20 09:37:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:37:24] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 09:42:49 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:42:49] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 09:42:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:42:53] "GET / HTTP/1.1" 200 -
+2025-04-20 09:42:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:42:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:42:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:42:53] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 09:42:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:42:53] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 09:43:14 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:43:14] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 09:44:29 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:44:29] "POST /start_whatsapp HTTP/1.1" 200 -
+2025-04-20 09:46:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:46:38] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 09:51:09 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:09] "GET / HTTP/1.1" 200 -
+2025-04-20 09:51:09 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:51:09 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:09] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 09:51:10 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:10] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 09:51:34 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:34] "GET / HTTP/1.1" 200 -
+2025-04-20 09:51:34 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 09:51:34 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:51:34 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:51:34] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 09:52:02 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:02] "GET / HTTP/1.1" 200 -
+2025-04-20 09:52:02 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:52:02 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 09:52:02 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:02] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 09:52:17 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:17] "GET / HTTP/1.1" 200 -
+2025-04-20 09:52:17 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:52:17 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:17] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 09:52:17 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:52:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 09:53:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:53:37] "GET / HTTP/1.1" 200 -
+2025-04-20 09:53:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:53:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 09:53:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:53:37] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 09:53:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:53:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 09:53:40 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 09:53:40] "POST /start_whatsapp HTTP/1.1" 200 -
+2025-04-20 10:00:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:00:46] "GET / HTTP/1.1" 200 -
+2025-04-20 10:00:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:00:46] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:00:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:00:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 10:00:47 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:00:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 10:14:20 - Failed to send message to 917009499516 - Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102495448 chromedriver + 6149192
+1   chromedriver                        0x000000010248cb0a chromedriver + 6114058
+2   chromedriver                        0x0000000101f1de80 chromedriver + 417408
+3   chromedriver                        0x0000000101f6f587 chromedriver + 750983
+4   chromedriver                        0x0000000101f6f7a1 chromedriver + 751521
+5   chromedriver                        0x0000000101fbf784 chromedriver + 1079172
+6   chromedriver                        0x0000000101f957bd chromedriver + 907197
+7   chromedriver                        0x0000000101fbcaca chromedriver + 1067722
+8   chromedriver                        0x0000000101f95563 chromedriver + 906595
+9   chromedriver                        0x0000000101f61955 chromedriver + 694613
+10  chromedriver                        0x0000000101f625b1 chromedriver + 697777
+11  chromedriver                        0x0000000102452f00 chromedriver + 5877504
+12  chromedriver                        0x0000000102456df1 chromedriver + 5893617
+13  chromedriver                        0x000000010242d344 chromedriver + 5722948
+14  chromedriver                        0x000000010245780b chromedriver + 5896203
+15  chromedriver                        0x000000010241bac4 chromedriver + 5651140
+16  chromedriver                        0x000000010247a918 chromedriver + 6039832
+17  chromedriver                        0x000000010247aae0 chromedriver + 6040288
+18  chromedriver                        0x000000010248c6d1 chromedriver + 6112977
+19  libsystem_pthread.dylib             0x00007ff8033f94e1 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff8033f4f6b thread_start + 15
+
+2025-04-20 10:14:20 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:14:20] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:14:59 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:14:59] "GET / HTTP/1.1" 200 -
+2025-04-20 10:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:15:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 10:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:15:00] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:15:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 10:15:41 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:15:41] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "GET / HTTP/1.1" 200 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "[33mGET /static/guide1.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "[33mGET /static/guide2.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "[33mGET /static/guide3.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:42:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:42:32] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 10:44:29 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 10:44:29 - Failed to send message to  * Restarting with stat
+2025-04-20 10:44:31 - Failed to send message to  * Debugger is active!
+2025-04-20 10:44:31 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 10:44:58 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 10:44:58 - Failed to send message to  * Restarting with stat
+2025-04-20 10:45:00 - Failed to send message to  * Debugger is active!
+2025-04-20 10:45:00 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 10:45:19 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 10:45:19 - Failed to send message to  * Restarting with stat
+2025-04-20 10:45:22 - Failed to send message to  * Debugger is active!
+2025-04-20 10:45:22 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "GET / HTTP/1.1" 200 -
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "[33mGET /static/guide1.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "[33mGET /static/guide2.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "[33mGET /static/guide3.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:45:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 10:45:27 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:27] "[35m[1mPOST /send_messages HTTP/1.1[0m" 500 -
+2025-04-20 10:45:39 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:45:39] "[35m[1mPOST /send_messages HTTP/1.1[0m" 500 -
+2025-04-20 10:47:20 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 10:47:20 - Failed to send message to  * Restarting with stat
+2025-04-20 10:47:22 - Failed to send message to  * Debugger is active!
+2025-04-20 10:47:22 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "GET / HTTP/1.1" 200 -
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "[33mGET /static/guide1.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "[33mGET /static/guide2.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "[33mGET /static/guide3.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 10:47:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 10:47:31 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:31] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:47:35 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:35] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:47:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:53] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:47:56 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:47:56] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:48:06 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:48:06] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:48:33 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:48:33] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:52:45 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 10:52:46 - Failed to send message to  * Restarting with stat
+2025-04-20 10:52:48 - Failed to send message to  * Debugger is active!
+2025-04-20 10:52:48 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 10:55:15 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:15] "GET / HTTP/1.1" 200 -
+2025-04-20 10:55:15 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:15] "[33mGET /static/guide1.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:55:15 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:15] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:55:15 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:15] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 10:55:16 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:16] "[33mGET /static/guide2.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:55:16 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:16] "[33mGET /static/guide3.jpg HTTP/1.1[0m" 404 -
+2025-04-20 10:55:16 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:55:16] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 10:56:18 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 10:56:18 - Failed to send message to  * Restarting with stat
+2025-04-20 10:56:20 - Failed to send message to  * Debugger is active!
+2025-04-20 10:56:20 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 10:56:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:22] "GET / HTTP/1.1" 200 -
+2025-04-20 10:56:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:22] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 10:56:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:22] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:56:22 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:22] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 10:56:29 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:29] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:56:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:32] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:56:43 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:43] "POST /start_whatsapp HTTP/1.1" 200 -
+2025-04-20 10:56:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:46] "GET / HTTP/1.1" 200 -
+2025-04-20 10:56:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 10:56:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:46] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 10:56:46 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:56:46] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 10:57:21 - Failed to send message to 917009499516 - Message: 
+Stacktrace:
+0   chromedriver                        0x000000010c5bb448 chromedriver + 6149192
+1   chromedriver                        0x000000010c5b2b0a chromedriver + 6114058
+2   chromedriver                        0x000000010c043e80 chromedriver + 417408
+3   chromedriver                        0x000000010c095587 chromedriver + 750983
+4   chromedriver                        0x000000010c0957a1 chromedriver + 751521
+5   chromedriver                        0x000000010c0e5784 chromedriver + 1079172
+6   chromedriver                        0x000000010c0bb7bd chromedriver + 907197
+7   chromedriver                        0x000000010c0e2aca chromedriver + 1067722
+8   chromedriver                        0x000000010c0bb563 chromedriver + 906595
+9   chromedriver                        0x000000010c087955 chromedriver + 694613
+10  chromedriver                        0x000000010c0885b1 chromedriver + 697777
+11  chromedriver                        0x000000010c578f00 chromedriver + 5877504
+12  chromedriver                        0x000000010c57cdf1 chromedriver + 5893617
+13  chromedriver                        0x000000010c553344 chromedriver + 5722948
+14  chromedriver                        0x000000010c57d80b chromedriver + 5896203
+15  chromedriver                        0x000000010c541ac4 chromedriver + 5651140
+16  chromedriver                        0x000000010c5a0918 chromedriver + 6039832
+17  chromedriver                        0x000000010c5a0ae0 chromedriver + 6040288
+18  chromedriver                        0x000000010c5b26d1 chromedriver + 6112977
+19  libsystem_pthread.dylib             0x00007ff8033f94e1 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff8033f4f6b thread_start + 15
+
+2025-04-20 10:57:21 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:57:21] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 10:59:21 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 10:59:21] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 11:12:13 - Failed to send message to [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-20 11:12:13 - Failed to send message to [33mPress CTRL+C to quit[0m
+2025-04-20 11:12:13 - Failed to send message to  * Restarting with stat
+2025-04-20 11:12:14 - Failed to send message to  * Debugger is active!
+2025-04-20 11:12:14 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 11:12:19 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:19] "GET / HTTP/1.1" 200 -
+2025-04-20 11:12:19 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:12:19 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:19] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:12:19 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:19] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 11:12:28 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:28] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 11:12:32 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:32] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 11:12:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:12:38] "POST /start_whatsapp HTTP/1.1" 200 -
+2025-04-20 11:18:03 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:18:03] "POST /send_messages HTTP/1.1" 200 -
+2025-04-20 11:23:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:23:30] "GET / HTTP/1.1" 200 -
+2025-04-20 11:23:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:23:30] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 11:23:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:23:30] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:23:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:23:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:30:05 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:30:05] "GET / HTTP/1.1" 200 -
+2025-04-20 11:30:05 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:30:05] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:30:05 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:30:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:30:05 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:30:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:31:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:31:54] "GET / HTTP/1.1" 200 -
+2025-04-20 11:31:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:31:54] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:31:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:31:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:31:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:31:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:34:07 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:34:07] "GET / HTTP/1.1" 200 -
+2025-04-20 11:34:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:34:08] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 11:34:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:34:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:34:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:34:08] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:41:25 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:41:25] "GET / HTTP/1.1" 200 -
+2025-04-20 11:41:25 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:41:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:41:25 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:41:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:41:25 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:41:25] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:41:26 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:41:26] "[33mGET /features HTTP/1.1[0m" 404 -
+2025-04-20 11:41:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:41:30] "[33mGET /about HTTP/1.1[0m" 404 -
+2025-04-20 11:42:14 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:14] "GET / HTTP/1.1" 200 -
+2025-04-20 11:42:14 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:42:14 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:14] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:42:14 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:42:33 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:33] "GET / HTTP/1.1" 200 -
+2025-04-20 11:42:33 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:42:33 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:33] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:42:33 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:42:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 11:58:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:58:45] "GET / HTTP/1.1" 200 -
+2025-04-20 11:58:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:58:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:58:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:58:45] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:58:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:58:45] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 11:59:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:59:54] "GET / HTTP/1.1" 200 -
+2025-04-20 11:59:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:59:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 11:59:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:59:54] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 11:59:54 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 11:59:54] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:00:43 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:00:43] "GET / HTTP/1.1" 200 -
+2025-04-20 12:00:43 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:00:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:00:43 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:00:43] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:00:43 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:00:43] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:01:40 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:01:40] "GET / HTTP/1.1" 200 -
+2025-04-20 12:01:40 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:01:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:01:40 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:01:40] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:01:40 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:01:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:02:11 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:11] "GET / HTTP/1.1" 200 -
+2025-04-20 12:02:11 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:02:11 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:11] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:02:11 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:02:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:38] "GET / HTTP/1.1" 200 -
+2025-04-20 12:02:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:38] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:02:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:02:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:02:38] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:03:56 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:03:56] "GET / HTTP/1.1" 200 -
+2025-04-20 12:03:56 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:03:56] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:03:56 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:03:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:03:56 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:03:56] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:04:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:04:37] "GET / HTTP/1.1" 200 -
+2025-04-20 12:04:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:04:37] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 12:04:37 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:04:37] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:04:38 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:04:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:05:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:45] "GET / HTTP/1.1" 200 -
+2025-04-20 12:05:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:05:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:45] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:05:45 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:45] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:05:51 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:51] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:05:51 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:05:51 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:51] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:05:51 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:05:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:06:03 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:06:03] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:06:03 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:06:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:06:03 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:06:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:06:03 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:06:03] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:07:49 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:49] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:07:49 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:49] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:07:49 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:07:49 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:07:57 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:57] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:07:57 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:07:57 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:07:57 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:07:57] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:08:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:08:53] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:08:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:08:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:08:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:08:53] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:08:53 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:08:53] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:10:22 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 12:10:23 - Failed to send message to  * Restarting with stat
+2025-04-20 12:10:25 - Failed to send message to  * Debugger is active!
+2025-04-20 12:10:25 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 12:10:28 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:10:28] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:10:28 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:10:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:10:28 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:10:28] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:10:28 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:10:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:15:00] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:15:00] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:15:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:15:00 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:15:00] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-20 12:16:20 - Failed to send message to [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-20 12:16:20 - Failed to send message to [33mPress CTRL+C to quit[0m
+2025-04-20 12:16:20 - Failed to send message to  * Restarting with stat
+2025-04-20 12:16:21 - Failed to send message to  * Debugger is active!
+2025-04-20 12:16:21 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 12:16:23 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:16:23] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:16:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:16:24] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:16:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:16:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:16:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:16:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:17:24 - Failed to send message to  * Detected change in '/Users/mac/Documents/Projects/P2/app.py', reloading
+2025-04-20 12:17:24 - Failed to send message to  * Restarting with stat
+2025-04-20 12:17:25 - Failed to send message to  * Debugger is active!
+2025-04-20 12:17:25 - Failed to send message to  * Debugger PIN: 375-406-231
+2025-04-20 12:17:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:17:30] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:17:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:17:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:17:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:17:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:17:30 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:17:30] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:18:31 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:18:31] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:18:31 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:18:31] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-20 12:18:31 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:18:31] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:18:31 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:18:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:21:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:21:08] "GET /?file=bulk_msg.xlsx HTTP/1.1" 200 -
+2025-04-20 12:21:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:21:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 12:21:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:21:08] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2025-04-20 12:21:08 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:21:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 12:21:24 - Failed to send message to 127.0.0.1 - - [20/Apr/2025 12:21:24] "POST /start_whatsapp HTTP/1.1" 200 -

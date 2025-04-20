@@ -51,9 +51,7 @@
                     <button class="primary-cta" id="startDemo">
                         <i class="fas fa-play-circle"></i> Watch Demo
                     </button>
-                    <button class="secondary-cta" id="startWhatsApp">
-                        <i class="fab fa-whatsapp"></i> Launch Messenger
-                    </button>
+            
                     <hr>
                     <!-- Digital Clock -->
                     <div id="digitalClock" class="digital-clock"></div>
@@ -81,7 +79,12 @@
                             <p>Drag & Drop Excel File or Click to Browse</p>
                             <input type="file" id="fileInput" name="file" accept=".xlsx,.xls" required>
                         </div>
-                        
+                        <div class="d-grid mb-2">
+                            <button class="secondary-cta" id="startWhatsApp">
+                                <i class="fab fa-whatsapp"></i> Launch Messenger
+                            </button>
+                        </div>
+                    
                         <div class="form-footer">
                             <button id="sendMessage" class="primary-cta" type="submit">
                                 <i class="fab fa-whatsapp"></i> Send Message
@@ -137,5 +140,11 @@
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
     </div>
+    <!-- inside index.html -->
+<div id="loadingOverlay" class="overlay">
+    <div class="spinner"></div>
+    <p>Processing, please wait...</p>
+</div>
+
 </body>
 </html>
